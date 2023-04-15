@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+spec:
+  containers:
+  - name: build
+    image: ubuntu:18.04
+    command:
+    - sleep
+    args:
+    - infinity
